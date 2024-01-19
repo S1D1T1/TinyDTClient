@@ -1,7 +1,7 @@
 # TinyDTClient
 A minimum client for Draw Things API
 
-TinyDTClient is a tiny MacOS SwiftUI Application demonstrating the basic functions for a client to the awesome Image generation app, Draw Things (DT). It is extracted from the full-featured client, PromptWriter.
+TinyDTClient is a tiny MacOS SwiftUI Application demonstrating the basic functions for a client to the awesome Image generation app, [Draw Things](https://apps.apple.com/us/app/draw-things-ai-generation/id6444050820) (DT). It is extracted from the full-featured client, PromptWriter.
 
 Dependancy: TinyDTClient depends on the library [RealHTTP](https://github.com/immobiliare/RealHTTP) for the low level http client stuff. Thanks to Immobillaire
 
