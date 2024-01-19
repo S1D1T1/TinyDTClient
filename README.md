@@ -11,6 +11,7 @@ The app makes image requests on the API,  sending json with 3 parameters:
 \(prompt from the prompt field, blank negative prompt, random seed\)
 
 All other image settings are done directly in DT.
+There's no error handling or user feedback.
 
 If you wanted to experiment with building a stable diffusion front end, you could add to the UI here - such as a text field for negative prompt, or controls for # of steps, etc.
 
