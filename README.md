@@ -7,7 +7,7 @@ Dependancy: TinyDTClient depends on the library [RealHTTP](https://github.com/im
 
 The app attempts to connect to a DT server at its default address, and has no UI for configuring server info, so DT must be running on the same mac, with HTTP server on, at port 7860.
 The app makes image requests on the API,  sending json with 3 parameters: 
-{"prompt":"-your prompt-","negative_prompt":"", "seed":-1} 
+{"prompt":"`your prompt`","negative_prompt":"", "seed":-1} 
 \(prompt from the prompt field, blank negative prompt, random seed\)
 
 All other image settings are done directly in DT.
