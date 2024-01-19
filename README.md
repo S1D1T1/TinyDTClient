@@ -16,4 +16,4 @@ If you wanted to experiment with building a stable diffusion front end, you coul
 
 <img width="1373" alt="Screenshot 2024-01-19 at 12 58 42 PM" src="https://github.com/S1D1T1/TinyDTClient/assets/156350598/dbd609e6-af97-4e3e-8f54-c3a002ec0c07">
 
-# TinyDTClient running alongside Draw Things
+TinyDTClient running alongside Draw Things
