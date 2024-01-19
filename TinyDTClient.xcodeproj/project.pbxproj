@@ -15,7 +15,6 @@
 /* Begin PBXFileReference section */
 		821363482B50746500691CB4 /* TinyDTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyDTClient.swift; sourceTree = "<group>"; };
 		82292CFC2B2E43670042A1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		82292D0D2B2E44DE0042A1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		826967992B5070B00085C032 /* TinyDTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyDTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8269679D2B5070B00085C032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,18 +51,9 @@
 		82292CF72B2E43660042A1C6 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				82292D0D2B2E44DE0042A1C6 /* Info.plist */,
 				82292CFC2B2E43670042A1C6 /* Assets.xcassets */,
-				82292CFF2B2E43670042A1C6 /* Preview Content */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		82292CFF2B2E43670042A1C6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8269679A2B5070B00085C032 /* source */ = {
