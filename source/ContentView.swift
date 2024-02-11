@@ -24,8 +24,8 @@ struct ContentView: View {
             requester.runPrompt(prompt)
           }
 
-          if requester.image != nil {
-            Image(nsImage: requester.image!)
+          if let image = requester.image  {
+            Image(nsImage:image)
           }
         }
         .padding()
