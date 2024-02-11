@@ -32,7 +32,6 @@ struct ContentView: View {
     }
   }
 
-
 class simpleImageRequester : ObservableObject {
  static var shared = simpleImageRequester()  //  make it a global, so async routines can find me
   @Published var image:NSImage?
@@ -49,7 +48,6 @@ class simpleImageRequester : ObservableObject {
   /// not currently used. you can save the image received
   func saveTmpImage(_ imageData:Data)->URL?
   {
-    //    let tempDirectoryURL = FileManager.default.temporaryDirectory
     let tempDirectoryURL = FileManager.default.temporaryDirectory
     let tempFileURL = tempDirectoryURL.appendingPathComponent("tmpImage.png")
 
